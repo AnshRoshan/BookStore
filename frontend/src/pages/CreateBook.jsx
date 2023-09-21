@@ -14,7 +14,7 @@ export const CreateBook = () => {
     e.preventDefault()
     setLoading(true)
     axios
-      .post("http://localhost:3000/books", {
+      .post("http://bookstore-mern.vercel.app/books", {
         title,
         author,
         year,

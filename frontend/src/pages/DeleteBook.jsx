@@ -13,7 +13,7 @@ export const DeleteBook = () => {
     e.preventDefault()
     setLoading(true)
     axios
-      .delete(`http://bookstore-mern.vercel.app/books/${id}`)
+      .delete(`https://bookstore-mern.vercel.app/books/${id}`)
       .then((res) => {
         setLoading(false)
         navigate("/")
